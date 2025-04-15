@@ -1,4 +1,4 @@
-import 'package:binisha_flutter/sizebox_example.dart';
+import 'package:binisha_flutter/InputUser.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: SizeboxExample(),
+      home: Inputuser(),
     );
   }
 }
