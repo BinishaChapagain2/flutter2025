@@ -1,4 +1,4 @@
-import 'package:binisha_flutter/simple_calculator.dart';
+import 'package:binisha_flutter/formexample.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       debugShowCheckedModeBanner: false,
-      home: SimpleCalculator(),
+      home: FormExample(),
     );
   }
 }
